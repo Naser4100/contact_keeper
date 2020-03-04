@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://nsr:nasersabbrina12@cluster0-dydiz.mongodb.net/contact_keeper?retryWrites=true&w=majority",
-  "jwtSecret": "secret"
+  "mongoURI": process.env.mongoURI,
+  "jwtSecret": process.env.secret
 }
